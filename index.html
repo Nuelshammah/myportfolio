@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfoliol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa12441708.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <img src="images/new logo.png" class="logo">
+        <nav class="nav">
+            
+            <ul id="sidemenu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+        <div class="header-text">
+            <p>Designer</p>
+            <h1>Hi, I'm <span>Emmanuel</span><br>Shammah from Earth</h1>
+        </div>
+</div> 
+<!-- ------------about----------    -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image.png.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Emmanuel shammah,  I am a 300 level student at caleb University caleb University studying studying computer science. Currently doing my IT at HIIT ikeja learning Web design, python and graphic design. I love programming and I am also a sport brand designer. This is my portfolio which I design and have given a brief details about my self.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                     <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                    <li><span>Web Developer</span><br>web app Development.</li>
+                    <li><span>App Development</span><br>Building Android/ios apps.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    <li><span>2024-current</span><br>web design at HIIT</li>
+                    <li><span>2021-2021</span><br>caleb tech.</li>
+                    <li><span>2024</span><br>intenship at HIIT.</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><spanX>2021</span><br>caleb university</li>
+                    <li><span>2022</span><br>microsoft certificate.</li>
+                    <li><span>2024</span><br>HIIT.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------servives---------- -->
+ <div id="services">
+    
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I'm a Web design and a Web developer with 2 months experience I build the most creative,eye catching,efficient and responsive website for users</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designer</h2>
+                <p>My goal is to transform complex interaction into effortless journey, leaving users delighted and giving them full satisfaction with my work at all times .</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Designer</h2>
+                <p>I try to transform ideas into interactive experiences. With a blend of creativity I try to create not just an application but digital companions that simplify life and life more fun.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+ </div>
+ <!-- ----------portfolio----------- -->
+  <div id="portfolio">
+    <div class="port-container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="Work-list">
+            <div class="layer">
+            </div>
+            <div class="Work">
+                <img src="images/img1.png.jpeg">
+            <div class="layers">
+                <h3>News-home-page</h3>
+                <p>We give you the latest update of things happening around you.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="Work">
+                <img src="images/img2.png.jpeg">
+            <div class="layers">
+                <h3>Bank-page</h3>
+                <p>We make banking easy by bringing the bank to your comfort zone.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="Work">
+                <img src="images/img3.png.png">
+            <div class="layers">
+                <h3>Online food app</h3>
+                <p>you can enjoy premium and healthy food with out breaking 
+                    the bank by ordering from our app.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more </a>
+    </div>
+  </div>
+<!-- -----------context----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>emmanuelshammah2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>07080969752</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/X?mx=2" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div> 
+            <div class="Contact-right">
+                <form>
+                  <input type="text" name="Name" id="fname" placeholder="Your Name" required onkeyup="validateName()"><span id="name-error"></span>
+                  <input type="email" name="email" id="fmail" placeholder="Your Email" required><span id="email-error"></span> 
+                  <textarea name="Message" row="6" id="desc" placeholder="Your Message"></textarea><span id="message-error"></span> 
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<script src="./app.js"></script>
+</body>
+</html>
